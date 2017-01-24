@@ -7,10 +7,10 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        int n = in.nextInt();
-        int[] nums1 = new int[n];
-        int[] nums2 = new int[n];
-        for (int i = 0; i < n; i++) {
+        int a = in.nextInt();
+        int[] nums1 = new int[a];
+        int[] nums2 = new int[a];
+        for (int i = 0; i < a; i++) {
             nums1[i] = in.nextInt();
             nums2[i] = nums1[i];
          }
